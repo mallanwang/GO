@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="09/12/2017 10:31:16" ReportInfo.Modified="11/15/2017 09:33:05" ReportInfo.CreatorVersion="2014.2.3.0">
+  <Dictionary>
+    <XmlDataConnection Name="XH" ConnectionString="rijcmlqmmfdjkQxfe1iwShBNGpud9NTtB+n6dy8STU2t61HROyYzrWzx6M1NnHZwM+l4h0M479empKyQYSAr9IbsaTwlY88j25Q+e3zT9l3iffEvo5JE/AEmJCTEBr9EywRSi2vw6A9UpHJszarKltB+RM1rg==">
+      <TableDataSource Name="BRIMOSC_DYHistory" DataType="System.Int32" Enabled="true" TableName="BRIMOSC_DYHistory">
+        <Column Name="序列号" DataType="System.String"/>
+        <Column Name="品名" DataType="System.String"/>
+        <Column Name="克重" DataType="System.String"/>
+        <Column Name="幅宽" DataType="System.String"/>
+        <Column Name="机台" DataType="System.String"/>
+        <Column Name="长度" DataType="System.String"/>
+        <Column Name="批号" DataType="System.String"/>
+        <Column Name="筒号" DataType="System.String"/>
+        <Column Name="令数" DataType="System.String"/>
+        <Column Name="压力" DataType="System.String"/>
+        <Column Name="接头" DataType="System.String"/>
+        <Column Name="生产日期" DataType="System.String"/>
+        <Column Name="注解" DataType="System.String"/>
+        <Column Name="高度" DataType="System.String"/>
+        <Column Name="件号" DataType="System.String"/>
+        <Column Name="数量" DataType="System.String"/>
+        <Column Name="托盘号" DataType="System.String"/>
+        <Column Name="班次" DataType="System.String"/>
+        <Column Name="净重" DataType="System.String"/>
+        <Column Name="毛重" DataType="System.String"/>
+      </TableDataSource>
+    </XmlDataConnection>
+  </Dictionary>
+  <ReportPage Name="Page2" LeftMargin="0" TopMargin="0" RightMargin="0" BottomMargin="0" Guides="113.4,710.64,434.7,699.3,701.19,455.49,576.45,738.99,264.6,357.21,519.75,266.49">
+    <DataBand Name="Data2" Width="793.8" Height="1122.66" Guides="325.08,364.77,765.45,1030.05,567,606.69,633.15,672.84,703.08,742.77,387.45,427.14,444.15,483.84,500.85,540.54">
+      <TextObject Name="Text1" Left="113.4" Top="347.76" Width="597.24" Height="39.69" Text="[BRIMOSC_DYHistory.品名]" HorzAlign="Center" VertAlign="Center" WordWrap="false" Font="宋体, 27.75pt, style=Bold"/>
+      <BarcodeObject Name="Barcode2" Left="442.26" Top="801.36" Width="264.6" Height="264.6" AutoSize="false" DataColumn="BRIMOSC_DYHistory.序列号" ShowText="false" Barcode="Datamatrix" Barcode.SymbolSize="Auto" Barcode.Encoding="Auto" Barcode.CodePage="1252" Barcode.PixelSize="3"/>
+      <TextObject Name="Text2" Left="113.4" Top="604.8" Width="587.79" Height="39.69" Text="[BRIMOSC_DYHistory.筒号]" HorzAlign="Center" VertAlign="Center" WordWrap="false" Font="宋体, 27.75pt, style=Bold"/>
+      <TextObject Name="Text3" Left="113.4" Top="665.28" Width="587.79" Height="39.69" Text="[BRIMOSC_DYHistory.班次]" HorzAlign="Center" VertAlign="Center" WordWrap="false" Font="宋体, 27.75pt, style=Bold"/>
+      <TextObject Name="Text4" Left="113.4" Top="737.1" Width="587.79" Height="39.69" Text="[BRIMOSC_DYHistory.生产日期]" HorzAlign="Center" VertAlign="Center" WordWrap="false" Font="宋体, 27.75pt, style=Bold"/>
+      <TextObject Name="Text5" Left="113.4" Top="417.69" Width="342.09" Height="39.69" Text="[BRIMOSC_DYHistory.批号]" HorzAlign="Center" VertAlign="Center" WordWrap="false" Font="宋体, 27.75pt, style=Bold"/>
+      <TextObject Name="Text6" Left="576.45" Top="417.69" Width="162.54" Height="39.69" Text="[BRIMOSC_DYHistory.克重]" HorzAlign="Center" VertAlign="Center" WordWrap="false" Font="宋体, 27.75pt, style=Bold"/>
+      <TextObject Name="Text7" Left="113.4" Top="480.06" Width="151.2" Height="39.69" Text="[BRIMOSC_DYHistory.机台]" HorzAlign="Center" VertAlign="Center" WordWrap="false" Font="宋体, 27.75pt, style=Bold"/>
+      <TextObject Name="Text8" Left="357.21" Top="480.06" Width="162.54" Height="39.69" Text="[BRIMOSC_DYHistory.接头]" HorzAlign="Center" VertAlign="Center" WordWrap="false" Font="宋体, 27.75pt, style=Bold"/>
+      <TextObject Name="Text9" Left="113.4" Top="542.43" Width="153.09" Height="39.69" Text="[BRIMOSC_DYHistory.幅宽]" HorzAlign="Center" VertAlign="Center" WordWrap="false" Font="宋体, 27.75pt, style=Bold"/>
+      <TextObject Name="Text10" Left="357.21" Top="542.43" Width="162.54" Height="39.69" Text="[BRIMOSC_DYHistory.长度]" HorzAlign="Center" VertAlign="Center" WordWrap="false" Font="宋体, 27.75pt, style=Bold"/>
+      <TextObject Name="Text11" Left="576.45" Top="542.43" Width="162.54" Height="39.69" Text="[BRIMOSC_DYHistory.净重]" HorzAlign="Center" VertAlign="Center" WordWrap="false" Font="宋体, 27.75pt, style=Bold"/>
+      <TextObject Name="Text12" Left="576.45" Top="480.06" Width="162.54" Height="39.69" Text="[BRIMOSC_DYHistory.毛重]" HorzAlign="Center" VertAlign="Center" WordWrap="false" Font="宋体, 27.75pt, style=Bold"/>
+    </DataBand>
+  </ReportPage>
+</Report>

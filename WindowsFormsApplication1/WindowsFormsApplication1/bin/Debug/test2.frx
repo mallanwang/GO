@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="09/12/2017 10:31:16" ReportInfo.Modified="11/10/2017 17:27:42" ReportInfo.CreatorVersion="2014.2.3.0">
+  <Dictionary>
+    <XmlDataConnection Name="XH" ConnectionString="rijcmlqmmfdjkQxfe1iwShBNGpud9NTtB+n6dy8STU2t61HROyYzrWzx6M1NnHZwM+l4h0M479empKyQYSAr9IbsaTwlY88j25Q+e3zT9l3iffEvo5JE/AEmJCTEBr9EywRSi2vQmN5UGSJzp14+Hj/V+YZ3Q==">
+      <TableDataSource Name="BRIMOSC_DYHistory" DataType="System.Int32" Enabled="true" TableName="BRIMOSC_DYHistory">
+        <Column Name="品名" DataType="System.String"/>
+        <Column Name="克重" DataType="System.String"/>
+        <Column Name="幅宽" DataType="System.String"/>
+        <Column Name="机台" DataType="System.String"/>
+        <Column Name="长度" DataType="System.String"/>
+        <Column Name="批号" DataType="System.String"/>
+        <Column Name="筒号" DataType="System.String"/>
+        <Column Name="令数" DataType="System.String"/>
+        <Column Name="压力" DataType="System.String"/>
+        <Column Name="接头" DataType="System.String"/>
+        <Column Name="生产日期" DataType="System.String"/>
+        <Column Name="注解" DataType="System.String"/>
+        <Column Name="高度" DataType="System.String"/>
+        <Column Name="件号" DataType="System.String"/>
+        <Column Name="数量" DataType="System.String"/>
+        <Column Name="托盘号" DataType="System.String"/>
+        <Column Name="班次" DataType="System.String"/>
+        <Column Name="净重" DataType="System.String"/>
+        <Column Name="毛重" DataType="System.String"/>
+      </TableDataSource>
+    </XmlDataConnection>
+  </Dictionary>
+  <ReportPage Name="Page2" LeftMargin="0" RightMargin="0">
+    <DataBand Name="Data2" Width="793.8" Height="1122.66" DataSource="BRIMOSC_DYHistory">
+      <TextObject Name="Text1" Left="66.15" Top="141.75" Width="160.65" Height="28.35" Text="[BRIMOSC_DYHistory.品名]" Font="宋体, 9pt"/>
+      <TextObject Name="Text2" Left="274.05" Top="141.75" Width="160.65" Height="28.35" Text="[BRIMOSC_DYHistory.克重]" Font="宋体, 9pt"/>
+      <TextObject Name="Text3" Left="491.4" Top="141.75" Width="160.65" Height="28.35" Text="[BRIMOSC_DYHistory.幅宽]" Font="宋体, 9pt"/>
+    </DataBand>
+  </ReportPage>
+</Report>
